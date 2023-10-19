@@ -1384,6 +1384,17 @@ figure img {
   height: 100%;
   object-fit: cover;
 }
+.skip-nav-link {
+  position: absolute;
+  left: 1rem;
+  transform: translateY(-120%);
+  transition: transform 325ms ease-in;
+}
+
+.skip-nav-link:focus {
+  transform: translateY(20%);
+}
+
 
 
 
