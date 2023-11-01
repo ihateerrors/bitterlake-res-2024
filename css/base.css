@@ -267,7 +267,7 @@ body {
 }
 
 .stactionpink {
-  color: #d6078e;
+  color: var(--line-pink);
 }
 
 .stlinelightblue {
@@ -275,7 +275,7 @@ body {
 }
 
 .stwaveteal {
-  color: #2a7997;
+  color: var(--wave-teal);
 }
 
 .rustyred {
@@ -479,7 +479,7 @@ p {
 }
 
 a {
-  color: #0071bc;
+  color: var(--dark-teal);
   text-decoration: underline;
 }
 a:visited {
@@ -539,18 +539,18 @@ h6 {
 }
 /* Layout */
 .topbar {
-  background-color: #d9d9d9;
+  background-color: var(--roadway-gray);
 }
 
 .topbar span {
-  color: #2b376e;
+  color: var(--wave-blue);
 }
 header#mainheader {
   width: 100%;
-  background-color: #2b376e;
+  background-color: var(--wave-blue);
 }
 #footer {
-  background-color: #2b376e;
+  background-color: var(--wave-blue);
   clear: both;
   margin-top: 20px;
   color: white;
@@ -581,7 +581,7 @@ header#mainheader {
 
 /* Forms  */
 form {
-  /* border: 3px solid #2a7997; */
+  /* border: 3px solid var(--wave-teal); */
   padding-top: 20px;
   margin-bottom: 10px;
 }
@@ -680,7 +680,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--service-gray);
   margin: 1em 0;
   padding: 0;
 }
@@ -751,8 +751,8 @@ header#mainheader h1 {
 
 
 form#feedbackForm {
-  background-color: #eaeaea;
-  border: 2px solid #d6148e;
+  background-color: var(--land-gray);
+  border: 2px solid var(--line-pink);
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -765,7 +765,7 @@ h2 {
 
 .emph {
   margin-top: 2px;
-  border-top: 4px solid #2a7997;
+  border-top: 4px solid var(--wave-teal);
 }
 
 button {
@@ -776,7 +776,7 @@ button {
   padding: 0px 0px 0px 0px;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: #d6078e !important;
+  background-color: var(--line-pink) !important;
 }
 
 .outbox {
@@ -787,7 +787,7 @@ button {
   background-color: #f4f4f4;
   padding: 25px;
   margin: 0 0 20px 0;
-  border-top: 4px solid #2a7997;
+  border-top: 4px solid var(--wave-teal);
   border-left: 2px solid #ffffff;
   min-height: 280px;
   border-right: 2px solid #ffffff;
@@ -796,7 +796,7 @@ button {
 
 .leady {
   font-size: 2rem;
-  color: #5a5a5a;
+  color: var(--railway-gray);
   font-weight: 500;
 }
 
@@ -805,7 +805,7 @@ button {
 }
 
 .callout {
-  border: 2px solid #2a7997;
+  border: 2px solid var(--wave-teal);
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -824,7 +824,7 @@ button {
 
 .gb {
   color: #ffffff;
-  background-color: #2a7997;
+  background-color: var(--wave-teal);
   padding: 10px 0px 10px 10px;
   margin-left: 0;
   margin-right: 0;
@@ -848,7 +848,7 @@ h3 {
 
 .entryhead {
   color: #ffffff;
-  background-color: #2a7997;
+  background-color: var(--wave-teal);
   padding: 10px 0px 10px 20px;
   margin-left: 0;
   margin-right: 0;
@@ -856,7 +856,7 @@ h3 {
 }
 
 .entry-header {
-  background-color: #2b376e;
+  background-color: var(--wave-blue);
   color: white;
   width: 100%;
   padding: 25px 0px 25px 0px;
@@ -879,7 +879,7 @@ ul.no-gap li {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #ffffff;
-  color: #2a7997;
+  color: var(--wave-teal);
   cursor: pointer;
   /* padding: 18px; */
   width: 100%;
@@ -928,7 +928,7 @@ ul.no-gap li {
 
 
 .topdiv {
-  background-color: #d9d9d9;
+  background-color: var(--roadway-gray);
   z-index: 1;
 }
 
@@ -945,7 +945,7 @@ ul.no-gap li {
 }
 
 .navbar-toggler {
-  background-color: #d9d9d9;
+  background-color: var(--roadway-gray);
 }
 
 .btn.pbutton {
@@ -959,7 +959,7 @@ ul.no-gap li {
 }
 /* .blbutton {
   color: #ffffff !important;
-  background: #d6078e !important;
+  background: var(--line-pink) !important;
   width: 100%;
   max-width: 190px;
 
@@ -1067,7 +1067,7 @@ h5 {
 
 .bboxHead {
   color: #ffffff;
-  background-color: #2b376e;
+  background-color: var(--wave-blue);
   padding: 10px 0px 10px 10px;
   margin-left: 0;
   margin-right: 0;
@@ -1080,7 +1080,7 @@ h5 {
 }
 
 .bbox {
-  color: #2b376e;
+  color: var(--wave-blue);
 }
 
 .buttonLinkbox {
@@ -1088,12 +1088,12 @@ h5 {
 }
 
 .borderbox2 {
-  background-color: #2b376e;
+  background-color: var(--wave-blue);
   border: 0.5px solid #000000;
 }
 
 .alert-x {
-  background-color: #f5a623;
+  background-color: var(--action-orange);
 }
 
 a {
@@ -1116,7 +1116,7 @@ nav.top_nav a {
 }
 
 nav.top_nav a:hover {
-  color: #2a7997;
+  color: var(--wave-teal);
 }
 
 nav.top_nav a:before {
@@ -1126,7 +1126,7 @@ nav.top_nav a:before {
   height: 4px;
   bottom: -1px;
   left: 0;
-  background-color: #2a7997;
+  background-color: var(--wave-teal);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -1143,7 +1143,7 @@ nav.top_nav a.active:before {
 
 /* 
 .active {
-  color: #2a7997;
+  color: var(--wave-teal);
 } */
 .nulx {
   text-decoration: underline;
@@ -1176,15 +1176,15 @@ progress {
 
 /* value: */
 progress::-webkit-progress-value {
-  background-color: #2a7997 !important;
+  background-color: var(--wave-teal) !important;
 }
 
 progress::-moz-progress-bar {
-  background-color: #2a7997 !important;
+  background-color: var(--wave-teal) !important;
 }
 
 progress {
-  color: #2a7997;
+  color: var(--wave-teal);
 }
 
 .timelinepage {
@@ -1193,7 +1193,7 @@ progress {
 }
 
 .timelinepage .timeline-wrapper {
-  border-left: 4px solid #2a7997;
+  border-left: 4px solid var(--wave-teal);
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
   position: relative;
@@ -1235,7 +1235,7 @@ progress {
 }
 
 .timelinepage .timeline-wrapper .tl.now:after {
-  box-shadow: 0 0 0 4px #2a7997;
+  box-shadow: 0 0 0 4px var(--wave-teal);
   left: -23.85px;
   background: white;
   border-radius: 50%;
@@ -1246,9 +1246,9 @@ progress {
 }
 
 .timelinepage .timeline-wrapper .tl.dot:after {
-  box-shadow: 0 0 0 4px #2a7997;
+  box-shadow: 0 0 0 4px var(--wave-teal);
   left: -23.85px;
-  background: #2a7997;
+  background: var(--wave-teal);
   border-radius: 50%;
   height: 11px;
   width: 11px;
@@ -1257,7 +1257,7 @@ progress {
 }
 
 .timelinepage .timeline-wrapper .tl:after {
-  background: #2a7997;
+  background: var(--wave-teal);
 }
 
 .fa-star {
@@ -1282,10 +1282,17 @@ i.fa.fa-check {
   -moz-osx-font-smoothing: grayscale;
 }
 
-figcaption {
+figcaption.s2 {
   text-align: left;
   padding: 10px;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: var(--railway-gray);
 }
+figcaption.s2:visited {
+  color: var(--highway-gray);
+}
+
 
 .accordion-list .thr:not(:first-of-type) {
   border-top: none;
