@@ -2,3 +2,28 @@
 /* #################################
 vvv ADD OVERRIDING STYES HERE vvv
 ################################# */
+
+
+:root {
+    --color-primary: #0046ad;
+    --color-secondary: #79A440;
+    --color-ternary: #38959F;
+    --color-dark-gray: #333D48;
+    --color-light-gray: #ECECEC;
+}
+
+.topbar {
+    color: white;
+}
+.topbar a {
+    color: var(--color-light-gray);
+}
+
+.hero {
+    background-color: white;
+}
+#mainheader h1 {
+    color: var(--color-primary);
+
+
+}

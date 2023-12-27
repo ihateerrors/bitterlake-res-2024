@@ -15,7 +15,7 @@
 /* ==========================================================================
 Fonts
    ========================================================================== */
-@font-face {
+/* @font-face {
   font-family: "Nunito Sans";
   src: url("fonts/NunitoSans-Bold.eot");
   src: url("fonts/NunitoSans-Bold.eot?#iefix") format("embedded-opentype"),
@@ -239,7 +239,7 @@ Fonts
     url("fonts/Hind-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
-}
+} */
 
 /* Fonts */
 html {
@@ -260,26 +260,6 @@ body {
   background-color: #fff;
   overflow-x: hidden;
   font-size: 1.8rem;
-}
-
-.stlineblue {
-  color: #007cad;
-}
-
-.stactionpink {
-  color: var(--line-pink);
-}
-
-.stlinelightblue {
-  color: #9ad6d3;
-}
-
-.stwaveteal {
-  color: var(--wave-teal);
-}
-
-.rustyred {
-  color: #a83b24;
 }
 
 *,
@@ -539,18 +519,17 @@ h6 {
 }
 /* Layout */
 .topbar {
-  background-color: var(--roadway-gray);
+  background-color: var(--color-dark-gray);
 }
 
 .topbar span {
-  color: var(--wave-blue);
+  color: var(--color-dark-gray);
 }
 header#mainheader {
   width: 100%;
-  background-color: var(--wave-blue);
 }
 #footer {
-  background-color: var(--wave-blue);
+  background-color: var(--color-dark-gray);
   clear: both;
   margin-top: 20px;
   color: white;
@@ -581,7 +560,7 @@ header#mainheader {
 
 /* Forms  */
 form {
-  /* border: 3px solid var(--wave-teal); */
+  /* border: 3px solid var(--color-secondary); */
   padding-top: 20px;
   margin-bottom: 10px;
 }
@@ -720,9 +699,7 @@ video {
 .clearfix:after {
   clear: both;
 }
-header#mainheader {
-  background-color: var(--wave-blue);
-}
+
 
 header#mainheader:after {
   content: " ";
@@ -731,7 +708,6 @@ header#mainheader:after {
 }
 
 header#mainheader h1 {
-  color: white;
   margin: 0.2em 0 0.3em 0;
   font-size: clamp(2.3rem, 1.5615rem, 3.6923vw, 4.1rem);
   line-height: 1;
@@ -765,7 +741,7 @@ h2 {
 
 .emph {
   margin-top: 2px;
-  border-top: 4px solid var(--wave-teal);
+  border-top: 4px solid var(--color-secondary);
 }
 
 button {
@@ -787,7 +763,7 @@ button {
   background-color: #f4f4f4;
   padding: 25px;
   margin: 0 0 20px 0;
-  border-top: 4px solid var(--wave-teal);
+  border-top: 4px solid var(--color-secondary);
   border-left: 2px solid #ffffff;
   min-height: 280px;
   border-right: 2px solid #ffffff;
@@ -805,7 +781,7 @@ button {
 }
 
 .callout {
-  border: 2px solid var(--wave-teal);
+  border: 2px solid var(--color-secondary);
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -824,7 +800,7 @@ button {
 
 .gb {
   color: #ffffff;
-  background-color: var(--wave-teal);
+  background-color: var(--color-secondary);
   padding: 10px 0px 10px 10px;
   margin-left: 0;
   margin-right: 0;
@@ -847,8 +823,6 @@ h3 {
 }
 
 .entryhead {
-  color: #ffffff;
-  background-color: var(--wave-teal);
   padding: 10px 0px 10px 20px;
   margin-left: 0;
   margin-right: 0;
@@ -856,8 +830,6 @@ h3 {
 }
 
 .entry-header {
-  background-color: var(--wave-blue);
-  color: white;
   width: 100%;
   padding: 25px 0px 25px 0px;
   margin: 40px 0px 0px 0px;
@@ -879,7 +851,7 @@ ul.no-gap li {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #ffffff;
-  color: var(--wave-teal);
+  color: var(--color-secondary);
   cursor: pointer;
   /* padding: 18px; */
   width: 100%;
@@ -928,7 +900,7 @@ ul.no-gap li {
 
 
 .topdiv {
-  background-color: var(--roadway-gray);
+  background-color: white;
   z-index: 1;
 }
 
@@ -945,7 +917,7 @@ ul.no-gap li {
 }
 
 .navbar-toggler {
-  background-color: var(--roadway-gray);
+  background-color: white;
 }
 
 .btn.pbutton {
@@ -1067,7 +1039,7 @@ h5 {
 
 .bboxHead {
   color: #ffffff;
-  background-color: var(--wave-blue);
+  background-color: var(--color-primary);
   padding: 10px 0px 10px 10px;
   margin-left: 0;
   margin-right: 0;
@@ -1080,7 +1052,7 @@ h5 {
 }
 
 .bbox {
-  color: var(--wave-blue);
+  color: var(--color-primary);
 }
 
 .buttonLinkbox {
@@ -1088,7 +1060,7 @@ h5 {
 }
 
 .borderbox2 {
-  background-color: var(--wave-blue);
+  background-color: var(--color-primary);
   border: 0.5px solid #000000;
 }
 
@@ -1116,7 +1088,7 @@ nav.top_nav a {
 }
 
 nav.top_nav a:hover {
-  color: var(--wave-teal);
+  color: var(--color-dark-gray);
 }
 
 nav.top_nav a:before {
@@ -1126,7 +1098,7 @@ nav.top_nav a:before {
   height: 4px;
   bottom: -1px;
   left: 0;
-  background-color: var(--wave-teal);
+  background-color: var(--color-secondary);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -1143,7 +1115,7 @@ nav.top_nav a.active:before {
 
 /* 
 .active {
-  color: var(--wave-teal);
+  color: var(--color-secondary);
 } */
 .nulx {
   text-decoration: underline;
@@ -1176,15 +1148,15 @@ progress {
 
 /* value: */
 progress::-webkit-progress-value {
-  background-color: var(--wave-teal) !important;
+  background-color: var(--color-secondary) !important;
 }
 
 progress::-moz-progress-bar {
-  background-color: var(--wave-teal) !important;
+  background-color: var(--color-secondary) !important;
 }
 
 progress {
-  color: var(--wave-teal);
+  color: var(--color-secondary);
 }
 
 .timelinepage {
@@ -1193,7 +1165,7 @@ progress {
 }
 
 .timelinepage .timeline-wrapper {
-  border-left: 4px solid var(--wave-teal);
+  border-left: 4px solid var(--color-secondary);
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
   position: relative;
@@ -1235,7 +1207,7 @@ progress {
 }
 
 .timelinepage .timeline-wrapper .tl.now:after {
-  box-shadow: 0 0 0 4px var(--wave-teal);
+  box-shadow: 0 0 0 4px var(--color-secondary);
   left: -23.85px;
   background: white;
   border-radius: 50%;
@@ -1246,9 +1218,9 @@ progress {
 }
 
 .timelinepage .timeline-wrapper .tl.dot:after {
-  box-shadow: 0 0 0 4px var(--wave-teal);
+  box-shadow: 0 0 0 4px var(--color-secondary);
   left: -23.85px;
-  background: var(--wave-teal);
+  background: var(--color-secondary);
   border-radius: 50%;
   height: 11px;
   width: 11px;
@@ -1257,7 +1229,7 @@ progress {
 }
 
 .timelinepage .timeline-wrapper .tl:after {
-  background: var(--wave-teal);
+  background: var(--color-secondary);
 }
 
 .fa-star {
