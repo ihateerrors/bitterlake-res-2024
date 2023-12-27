@@ -27,3 +27,24 @@ vvv ADD OVERRIDING STYES HERE vvv
 
 
 }
+
+.carousel-caption {
+    color: var(--color-dark-gray);
+    position: static;
+
+}
+.mx-w-600 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.mx-w-900 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.survey {
+    border: 2px solid var(--color-secondary);
+}
+.footer-header {
+    margin-top: 3rem;
+}

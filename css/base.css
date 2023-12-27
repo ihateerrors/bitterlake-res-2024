@@ -851,7 +851,7 @@ ul.no-gap li {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #ffffff;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   cursor: pointer;
   /* padding: 18px; */
   width: 100%;
@@ -869,7 +869,7 @@ ul.no-gap li {
 .accordion.active,
 .accordion:hover {
   background-color: rgb(255, 255, 255);
-  color: #2a7897;
+  color: var(--color-primary);
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -922,16 +922,19 @@ ul.no-gap li {
 
 .btn.pbutton {
   color: #ffffff;
-  background: var(--line-pink);
+  background: var(--color-ternary);
+  border: 2px solid var(--color-ternary);
+  border-radius: 5px;
+
 }
 .btn.pbutton:hover {
-  color: var(--line-pink);
+  color: var(--color-ternary);
   background: #fff;
-  border: 2px solid var(--line-pink);
+  border: 2px solid var(--color-ternary);
 }
 /* .blbutton {
   color: #ffffff !important;
-  background: var(--line-pink) !important;
+  background: var(--color-ternary) !important;
   width: 100%;
   max-width: 190px;
 
