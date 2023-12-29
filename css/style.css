@@ -6,10 +6,10 @@ vvv ADD OVERRIDING STYES HERE vvv
 
 :root {
     --color-primary: #0046ad;
-    --color-secondary: #79A440;
-    --color-ternary: #38959F;
-    --color-dark-gray: #333D48;
-    --color-light-gray: #ECECEC;
+    --color-secondary: #F0AB00;
+    --color-ternary: #247749;
+    --color-dark-gray: #26272E;
+    --color-light-gray: #F1F1F1;
 }
 
 .topbar {
@@ -53,7 +53,7 @@ vvv ADD OVERRIDING STYES HERE vvv
     background-color: var(--color-dark-gray);
       color: white;
     clear: both;
-    margin-top: 20px;
+
     padding: 20px 0;
   }
   #footer a,
@@ -80,7 +80,8 @@ vvv ADD OVERRIDING STYES HERE vvv
   }
   
   #spu-section,
-  #arts-section {
+  #arts-section,
+  #next-section {
     background-color: var(--color-light-gray);
   }
 
@@ -95,4 +96,46 @@ vvv ADD OVERRIDING STYES HERE vvv
   }
   .subheader-link:hover {
     text-decoration: underline;
+  }
+
+  .sm-icons > a {
+    margin-right: 2rem;
+  }
+
+
+  .submit-btn {
+    color: var(--color-dark-gray);
+    background-color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 5px;
+  }
+
+  .submit-btn:hover,
+  .submit-btn:focus {
+    color: var(--color-secondary);
+    background-color: transparent;
+    border: 2px solid var(--color-secondary);
+  }
+
+  .cal-btn {
+    border: 2px solid var(--color-primary);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 9px 10px rgba(0, 0, 0, .4);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 100ms;
+  }
+  
+  .cal-btn:hover {
+    transform: translateY(-8px);
+    box-shadow: 8px 17px 10px rgba(0, 0, 0, .25);
+  }
+  
+
+  .cal-btn a {
+    color: var(--color-dark-gray);
+    text-decoration: none;
+  }
+  .cal-btn a span.cl-primary {
+    color: var(--color-primary);
   }

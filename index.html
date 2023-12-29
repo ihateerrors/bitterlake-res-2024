@@ -24,9 +24,8 @@
     />
     <link
       rel="stylesheet"
-      id="load-fa-4-css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css?ver=5.9"
-      media="all"
+      href="https://kit.fontawesome.com/56475f5c73.css"
+      crossorigin="anonymous"
     />
     <link
       rel="apple-touch-icon"
@@ -154,19 +153,11 @@
               <div>
                 <a class="lang-link" href="spanish.html"> Español </a>
                 |
-                <a class="lang-link" href="somali.html">Soomaali</a>
-                |
-                <a class="lang-link" href="simplified-chinese.html">简化字</a>
+                <a class="lang-link" href="oromo.html">Oromoo</a>
                 |
                 <a class="lang-link" href="traditional-chinese.html"
                   >繁體中文</a
                 >
-                |
-                <a class="lang-link" href="vietnamese.html"> Tiếng Việt </a>
-                |
-                <a class="lang-link" href="korean.html">한국어</a>
-                |
-                <a class="lang-link" href="tagalog.html">Tagalog</a>
                 |
                 <a class="lang-link" href="amharic.html"> አማርኛ </a>
               </div>
@@ -223,6 +214,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#survey-section">Survey</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#next-section">What's next</a>
               </li>
             </ul>
           </nav>
@@ -294,44 +288,35 @@
           </div>
           <div class="row">
             <div class="col px-4 mb-5">
-              <div class="accordion-list">
-                <!-- Accordion 1-->
-                <button class="accordion thr">
-                  We'll be in the neighborhood
-                </button>
-                <div class="panel">
-                  <p>
-                    This winter, SPU, SPR, and ARTS are hosting in-person events
-                    in the Bitter Lake neighborhood to share the latest design
-                    plans. We hope to see you there!
-                  </p>
-                  <ul>
-                    <li>
-                      [insert Day, Date] from X:XX to X:XX at [insert location]
-                    </li>
-                    <li>
-                      [insert Day, Date] from X:XX to X:XX at [insert location]
-                    </li>
-                    <li>
-                      [insert Day, Date] from X:XX to X:XX at [insert location]
-                    </li>
-                    <li>
-                      [insert Day, Date] from X:XX to X:XX at [insert location]
-                      with <a href="[insert link]">[insert community group]</a>
-                    </li>
-                    <li>
-                      [insert Day, Date] from X:XX to X:XX at [insert location]
-                      with <a href="[insert link]">[insert community group]</a>
-                    </li>
-                    <li>
-                      [insert Day, Date] from X:XX to X:XX at [insert location]
-                      with <a href="[insert link]">[insert community group]</a>
-                    </li>
-                  </ul>
-
-                  <hr class="thr" />
+              <h3>We'll be in the neighborhood</h3>
+              <p>
+                This winter, SPU, SPR, and ARTS are hosting in-person events in
+                the Bitter Lake neighborhood to share the latest design plans.
+                We hope to see you there!
+              </p>
+              <div class="row gap-1 justify-content-around mt-5">
+                <div class=" cal-btn col-auto mb-5 p-3 p-xl-4 p-xxl-5">
+                  <a href="#" download>January XX <br> from <br class="d-none d-lg-block"> X:XX to X:XX at <br class="d-none d-lg-block"> Location. <br> <span class="cl-primary">Save the date!</span> </a>
                 </div>
-                <!-- Accordion 2 -->
+                <div class=" cal-btn col-auto mb-5 p-3 p-xl-4 p-xxl-5">
+                  <a href="#" download>January XX <br> from <br class="d-none d-lg-block"> X:XX to X:XX at <br class="d-none d-lg-block"> Location. <br> <span class="cl-primary">Save the date!</span> </a>
+                </div>
+                <div class=" cal-btn col-auto mb-5 p-3 p-xl-4 p-xxl-5">
+                  <a href="#" download>January XX <br> from <br class="d-none d-lg-block"> X:XX to X:XX at <br class="d-none d-lg-block"> Location. <br> <span class="cl-primary">Save the date!</span> </a>
+                </div>
+                <div class=" cal-btn col-auto mb-5 p-3 p-xl-4 p-xxl-5">
+                  <a href="#" download>January XX <br> from <br class="d-none d-lg-block"> X:XX to X:XX at <br class="d-none d-lg-block"> Location. <br> <span class="cl-primary">Save the date!</span> </a> 
+                </div>
+                <div class=" cal-btn col-auto mb-5 p-3 p-xl-4 p-xxl-5">
+                  <a href="#" download>January XX <br> from <br class="d-none d-lg-block"> X:XX to X:XX at <br class="d-none d-lg-block"> Location. <br> <span class="cl-primary">Save the date!</span> </a> 
+                </div>
+                <div class=" cal-btn col-auto mb-5 p-3 p-xl-4 p-xxl-5">
+                  <a href="#" download>January XX <br> from <br class="d-none d-lg-block"> X:XX to X:XX at <br class="d-none d-lg-block"> Location. <br> <span class="cl-primary">Save the date!</span> </a> 
+                </div>
+              </div>
+              
+              <div class="accordion-list mt-5">
+                <!-- Accordion -->
                 <button class="accordion thr">
                   About the site improvements
                 </button>
@@ -482,10 +467,14 @@
                 <h2>Reservoir Improvements</h2>
                 <p class="leady">
                   <b
-                    >Are you new to the reservoir project? <a class="subheader-link" href="">
-                      Catch up on what
-                      we’ve been doing
-                    </a>.</b
+                    >Are you new to the reservoir project?
+                    <a
+                      class="subheader-link"
+                      href="#spu-project"
+                      onclick="openProject('spu-project')"
+                    >
+                      Catch up on what we’ve been doing </a
+                    >.</b
                   >
                 </p>
               </div>
@@ -529,7 +518,7 @@
                 </li>
               </ul>
               <!-- carousel -->
-              <div class="mx-w-900">
+              <div class="mx-w-900 mt-5">
                 <div
                   id="carouselExampleCaptions"
                   class="carousel slide"
@@ -707,6 +696,7 @@
               <div class="accordion-list">
                 <!-- Accordion-1 -->
                 <button
+                  id="spu-project"
                   class="accordion thr"
                   aria-expanded="false"
                   aria-controls="accordion"
@@ -758,16 +748,8 @@
         <div class="entry-header">
           <div class="container-xxl px-lg-5">
             <div class="row">
-              <div class="px-4 col">
+              <div class="pt-4 col">
                 <h2>Open Space and Park Design</h2>
-                <p class="leady">
-                  <b
-                    >Are you new to the reservoir project? <a class="subheader-link" href="">
-                      Catch up on what
-                      we’ve been doing
-                    </a>.</b
-                  >
-                </p>
               </div>
             </div>
           </div>
@@ -775,14 +757,27 @@
         <div class="container-xxl px-lg-5">
           <div class="row">
             <div class="px-4 col">
-              <h3>Park concepts</h3>
+              <h3 class="mb-0">Park concepts</h3>
+              <p class="leady mt-0">
+                <b
+                  >Are you new to the reservoir project?
+                  <a
+                    class="subheader-link"
+                    href="#spr-project"
+                    onclick="openProject('spr-project')"
+                  >
+                    Catch up on what we’ve been doing </a
+                  >.</b
+                >
+              </p>
+
               <p>
                 We developed three possible designs for the park and open space
                 based on community feedback. Tell us what you think in our
                 survey!
               </p>
               <!-- carousel -->
-              <div class="mx-w-900">
+              <div class="mx-w-900 mt-5">
                 <div
                   id="carouselExampleCaptions"
                   class="carousel slide"
@@ -900,6 +895,7 @@
                 <div class="accordion-list">
                   <!-- Accordion-1 -->
                   <button
+                    id="spr-project"
                     class="accordion thr"
                     aria-expanded="false"
                     aria-controls="accordion"
@@ -943,14 +939,6 @@
             <div class="row">
               <div class="px-4 col">
                 <h2>Public Arts</h2>
-                <p class="leady">
-                  <b
-                    >Are you new to the reservoir project? <a class="subheader-link" href="">
-                      Catch up on what
-                      we’ve been doing
-                    </a>.</b
-                  >
-                </p>
               </div>
             </div>
           </div>
@@ -958,7 +946,7 @@
         <div class="container-xxl px-lg-5">
           <div class="row">
             <div class="px-4 col">
-              <h3>ARTS section</h3>
+              <!-- <h3>ARTS section</h3> -->
               <p>
                 Through informal conversations, hands-on workshops, and public
                 art surveys, people have expressed a desire for public
@@ -989,7 +977,7 @@
                 >
               </p>
               <!-- carousel -->
-              <div class="mx-w-900">
+              <div class="mx-w-900 mt-5">
                 <div
                   id="carouselExampleCaptions"
                   class="carousel slide"
@@ -1132,7 +1120,23 @@
                 current reservoir design, park concepts, and public art ideas.
               </p>
               <div class="survey"></div>
-              <h3>What's next</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-margin" id="next-section">
+        <div class="entry-header">
+          <div class="container-xxl px-lg-5">
+            <div class="row">
+              <div class="px-4 col">
+                <h2>What's next</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-xxl px-lg-5">
+          <div class="row">
+            <div class="px-4 col">
               <p>
                 SPU, SPR, and ARTS will continue working together to design this
                 new community destination. Here’s what we’ll be working on next:
@@ -1192,7 +1196,6 @@
           </div>
         </div>
       </div>
-      <div>&nbsp;</div>
 
       <!-- <div class="urgent-banner">
         <div class="container-xxl">
@@ -1217,7 +1220,30 @@
                 Share this site with others
               </h2>
               <div>
-                <div class="footer-img"><img src="" alt=""></div>
+                <h2 class="footer-header">Got questions?</h2>
+                <ul class="no-style">
+                  <li>
+                    <strong>Email us at</strong>
+                    <a href="mailto:SPU_ShipCanalProject@seattle.gov"
+                      >SPU_ShipCanalProject@seattle.gov</a
+                    >
+                  </li>
+                  <li>
+                    <strong>Call us at</strong>
+                    <a href="tel:+12067010233">206-701-0233</a> (monitored
+                    Monday - Friday, 8 am to 5 pm)
+                  </li>
+                </ul>
+                <p>
+                  <strong>
+                    If you need to report an urgent water, sewer, or drainage
+                    issue, please call
+                    <a href="tel:+12063861800">206-386-1800</a> (available 24/7)
+                  </strong>
+                </p>
+              </div>
+              <div>
+                <div class="footer-img"><img src="" alt="" /></div>
                 <div class="footer-img"></div>
               </div>
             </div>
@@ -1225,47 +1251,81 @@
               <h2 class="footer-header" id="contact">
                 Follow us on social media
               </h2>
-              <a href="[Facebook URL]"
-                ><img src="[Facebook Icon URL]" alt="Facebook icon"
-              /></a>
-              <a href="[Twitter URL]"
-                ><img src="[Twitter Icon URL]" alt="Twitter icon"
-              /></a>
-              <a href="[Instagram URL]"
-                ><img src="[Instagram Icon URL]" alt="Instagram icon"
-              /></a>
-              <a href="[Flickr URL]"
-                ><img src="[Flickr Icon URL]" alt="Flickr icon"
-              /></a>
+              <div class="sm-icons">
+                <a href="[Facebook URL]"
+                  ><i class="fa-brands fa-2xl fa-square-facebook"></i
+                ></a>
+                <a href="[Twitter URL]"
+                  ><i class="fa-brands fa-2xl fa-x-twitter"></i
+                ></a>
+                <a href="[Instagram URL]"
+                  ><i class="fa-brands fa-2xl fa-instagram"></i
+                ></a>
+                <a href="[Flickr URL]"
+                  ><i class="fa-brands fa-2xl fa-flickr"></i
+                ></a>
+              </div>
+              <div class="py-1 mt-5 col footer-form">
 
-              <h2 class="footer-header">Got questions?</h2>
-              <ul class="no-style">
-                <li>
-                  <strong>Email us at</strong>
-                  <a href="mailto:SPU_ShipCanalProject@seattle.gov"
-                    >SPU_ShipCanalProject@seattle.gov</a
+                  <h2>Sign up for project updates</h2>
+
+                <div class="footer__service-alerts-submit">
+                  <form
+                    class=""
+                    action="https://public.govdelivery.com/accounts/WASOUND/subscribers/qualify"
+                    id="system-expansion-subscription-form"
+                    method="get"
+                    target="_blank"
+                    novalidate="novalidate"
                   >
-                </li>
-                <li>
-                  <strong>Call us at</strong>
-                  <a href="tel:+12067010233">206-701-0233</a> (monitored Monday
-                  - Friday, 8 am to 5 pm)
-                </li>
-              </ul>
-
-              <p>
-                <strong>
-                  If you need to report an urgent water, sewer, or drainage
-                  issue, please call
-                  <a href="tel:+12063861800">206-386-1800</a> (available 24/7)
-                </strong>
-              </p>
+                    <input type="hidden" name="qsp" id="qsp" value="WASOUND_24" />
+                    <input
+                      type="hidden"
+                      value="1"
+                      name="country_code"
+                      id="country_code"
+                    />
+                    <input
+                      type="hidden"
+                      id="subscription_type"
+                      name="subscription_type"
+                      value="email"
+                    />
+                    <div class="">
+                      <div class="footer__service-alerts-form">
+                        <span
+                          class="form__label sr-only"
+                          id="subscribe-form-input-placeholder"
+                          >Enter your email address</span
+                        >
+                        <input
+                          class="form__control"
+                          id="subscribe-target"
+                          name="email"
+                          type="text"
+                          placeholder="Enter your email address"
+                          aria-describedby="subscribe-form-input-placeholder"
+                        />
+                      </div>
+                    </div>
+                    <div class="">
+                      <div class="footer__service-alerts-submit">
+                        <button type="submit" class="btn submit-btn">
+                          Subscribe now
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+  
               <h2 class="footer-header">Interested in learning more?</h2>
               <p>
                 Visit our <a href="[Project Library URL]">project library</a>
               </p>
             </div>
           </div>
+          <hr />
           <p style="clear: both"></p>
           <div class="copyright clearfix">
             Copyright ©

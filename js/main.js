@@ -67,3 +67,14 @@ $(window).scroll(function () {
 
   $("#progressbar").attr("value", position);
 });
+
+const openProject = (project) => {
+  // When the <a> tag is clicked it will scroll down,
+  // to the anchor. Then afte 1sec the accordion opens.
+  setTimeout(() => {
+    const projAcc = document.getElementById(`${project}`);
+    const panel = projAcc.nextElementSibling;
+    projAcc.classList.add("active");
+    panel.style.display = "block";
+  }, 1000);
+};
