@@ -752,7 +752,6 @@ button {
 }
 
 .callout {
-  border: 2px solid var(--color-secondary);
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -1410,4 +1409,9 @@ figure img {
   .topbar #google_translate_element {
     float: none;
   }
+}
+
+.vertical-photo {
+  width: 300px !important;
+
 }
