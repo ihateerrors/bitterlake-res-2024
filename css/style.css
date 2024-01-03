@@ -80,6 +80,7 @@ vvv ADD OVERRIDING STYES HERE vvv
 .survey {
   border: 2px solid var(--color-ternary);
   border-radius: 5px;
+  overflow: hidden;
 }
 .subheader-link {
   text-decoration: none;
