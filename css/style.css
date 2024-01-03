@@ -1,147 +1,145 @@
-
 /* #################################
 vvv ADD OVERRIDING STYES HERE vvv
 ################################# */
 
-
 :root {
-    --color-primary: #0046ad;
-    --color-secondary: #F0AB00;
-    --color-ternary: #247749;
-    --color-dark-gray: #26272E;
-    --color-light-gray: #F1F1F1;
+  --color-primary: #0046ad;
+  --color-secondary: #f0ab00;
+  --color-ternary: #247749;
+  --color-dark-gray: #26272e;
+  --color-light-gray: #f1f1f1;
 }
 
 .topbar {
-    color: white;
+  color: white;
 }
 .topbar a {
-    color: var(--color-light-gray);
+  color: var(--color-light-gray);
 }
 
 .hero {
-    background-color: white;
+  background-color: white;
 }
 #mainheader h1 {
-    color: var(--color-primary);
-
-
+  color: var(--color-primary);
 }
 
 .carousel-caption {
-    color: var(--color-dark-gray);
-    position: static;
-
+  color: var(--color-dark-gray);
+  position: static;
 }
 .mx-w-600 {
-    max-width: 600px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .mx-w-900 {
-    max-width: 900px;
-    margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.survey {
-    border: 2px solid var(--color-secondary);
-}
 .footer-header {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 #footer {
-    background-color: var(--color-dark-gray);
-      color: white;
-    clear: both;
+  background-color: var(--color-dark-gray);
+  color: white;
+  clear: both;
 
-    padding: 20px 0;
-  }
-  #footer a,
-  #footer a:hover {
-    color: var(--color-light-gray);
-  }
-  #footer h1 {
-    font-size: 2.8rem;
-    margin-top: 7px;
-  }
-  #footer h2 {
-    font-size: 2.4rem;
-  }
-  
-  #footer .socialicon {
-    width: 23px;
-    height: auto;
-    margin-right: 5px;
-  }
-  
-  #footer a.sociallink,
-  #footer a.sociallink:hover {
-    text-decoration: none;
-  }
-  
-  #spu-section,
-  #arts-section,
-  #next-section {
-    background-color: var(--color-light-gray);
-  }
+  padding: 20px 0;
+}
+#footer a,
+#footer a:hover {
+  color: var(--color-light-gray);
+}
+#footer h1 {
+  font-size: 2.8rem;
+  margin-top: 7px;
+}
+#footer h2 {
+  font-size: 2.4rem;
+}
 
-  .survey {
-    height: 400px;
-    border-radius: 5px;
-  }
+#footer .socialicon {
+  width: 23px;
+  height: auto;
+  margin-right: 5px;
+}
 
-  .subheader-link {
-    text-decoration: none;
-    color: var(--color-primary);
-  }
-  .subheader-link:hover {
-    text-decoration: underline;
-  }
+#footer a.sociallink,
+#footer a.sociallink:hover {
+  text-decoration: none;
+}
 
-  .sm-icons > a {
-    margin-right: 2rem;
-  }
+#spu-section,
+#arts-section,
+#next-section {
+  background-color: var(--color-light-gray);
+}
 
+.survey {
+  border: 2px solid var(--color-ternary);
+  border-radius: 5px;
+}
+.subheader-link {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+.subheader-link:hover {
+  text-decoration: underline;
+}
 
-  .submit-btn {
-    color: var(--color-dark-gray);
-    background-color: var(--color-secondary);
-    border: 2px solid var(--color-secondary);
-    border-radius: 5px;
-  }
+.sm-icons > a {
+  margin-right: 2rem;
+}
 
-  .submit-btn:hover,
-  .submit-btn:focus {
-    color: var(--color-secondary);
-    background-color: transparent;
-    border: 2px solid var(--color-secondary);
-  }
+.submit-btn {
+  color: var(--color-dark-gray);
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  border-radius: 5px;
+}
 
-  .cal-btn {
-    border: 2px solid var(--color-primary);
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 5px 9px 10px rgba(0, 0, 0, .4);
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 100ms;
-  }
-  
-  .cal-btn:hover {
-    transform: translateY(-8px);
-    box-shadow: 8px 17px 10px rgba(0, 0, 0, .25);
-  }
-  
+.submit-btn:hover,
+.submit-btn:focus {
+  color: var(--color-secondary);
+  background-color: transparent;
+  border: 2px solid var(--color-secondary);
+}
 
-  .cal-btn a {
-    color: var(--color-dark-gray);
-    text-decoration: none;
-  }
-  .cal-btn a span.cal-cta {
-    color: var(--color-primary);
-  }
+.cal-btn {
+  border: 2px solid var(--color-primary);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 9px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 100ms;
+}
 
-  .contact-h3 {
-    font-size: 2.4rem;
-    font-weight: 700;
-    padding-bottom: 0;
-  }
+.cal-btn:hover {
+  transform: translateY(-8px);
+  box-shadow: 8px 17px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cal-btn a {
+  color: var(--color-dark-gray);
+  text-decoration: none;
+}
+.cal-btn a span.cal-cta {
+  color: var(--color-primary);
+}
+
+.contact-h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.callout {
+  border-radius: 5px;
+  margin-top: 2em;
+}
+
+.bg-gray {
+  background-color: var(--color-light-gray);
+}

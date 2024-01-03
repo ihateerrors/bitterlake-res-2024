@@ -892,15 +892,15 @@ ul.no-gap li {
 
 .btn.pbutton {
   color: #ffffff;
-  background: var(--color-ternary);
-  border: 2px solid var(--color-ternary);
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary);
   border-radius: 5px;
 
 }
 .btn.pbutton:hover {
-  color: var(--color-ternary);
-  background: #fff;
-  border: 2px solid var(--color-ternary);
+  color: var(--color-primary);
+  background: transparent;
+  border: 2px solid var(--color-primary);
 }
 /* .blbutton {
   color: #ffffff !important;
@@ -1343,10 +1343,15 @@ figure img {
   left: 1rem;
   transform: translateY(-120%);
   transition: transform 325ms ease-in;
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
 }
 
 .skip-nav-link:focus {
   transform: translateY(20%);
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+
 }
 
 
