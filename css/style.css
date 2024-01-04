@@ -12,6 +12,7 @@ vvv ADD OVERRIDING STYES HERE vvv
 
 .topbar {
   color: white;
+  background-color: var(--color-primary);
 }
 .topbar a {
   color: var(--color-light-gray);
@@ -42,7 +43,7 @@ vvv ADD OVERRIDING STYES HERE vvv
 }
 
 #footer {
-  background-color: var(--color-dark-gray);
+  background-color: var(--color-primary);
   color: white;
   clear: both;
 
