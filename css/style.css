@@ -145,3 +145,14 @@ vvv ADD OVERRIDING STYES HERE vvv
 .bg-gray {
   background-color: var(--color-light-gray);
 }
+
+.footer-logo {
+  max-width: 220px;
+}
+
+.fa-brands {
+  color: var(--color-primary);
+}
+.fa-brands:hover {
+  color: var(--color-secondary);
+}
